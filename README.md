@@ -7,9 +7,11 @@ This demonstration shows an easy way in practice to convert pre-trained models f
 
 ## Set Up
 Pull code and install environment
-`git clone https://github.com/NotDachun/huggingface-ark.git`
-`cd huggingface-ark`
-`pip install -r requirements.txt`
+```
+git clone https://github.com/NotDachun/huggingface-ark.git
+cd huggingface-ark
+pip install -r requirements.txt
+```
 
 ## Pretraining Models
 This [notebook](https://github.com/NotDachun/huggingface-ark/blob/main/convert_model_to_RFA.ipynb) demonstrates our procedure for training RoBERTa w/ RFA starting from the RoBERTa checkpoint. The same procedure can be followed to get a version of other existing pretrained models.
