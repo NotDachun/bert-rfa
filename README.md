@@ -23,4 +23,11 @@ Training script adapted from HuggingFace [transformers](https://github.com/huggi
 - Add the RFA code into the repository as a module to remove the dependency on rfa repository (which requires a user to set up the entire fairseq library)
 - Do the same for the linfa module and add an interface to HuggingFace
 - Modularize the interface to HuggingFace (can reference the convert_model_to_rfa notebook)
+- Add the ability to use drop-in replacements for causal language models
 - Make the repository a pip installable package (write a setup.py)
+
+## Further experimentation
+- Efficiency of training models from scratch with attention variants
+- Performance on longer sequence lengths with attention variants
+
+
