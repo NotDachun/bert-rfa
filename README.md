@@ -20,8 +20,8 @@ This [notebook](https://github.com/NotDachun/huggingface-ark/blob/main/convert_m
 Training script adapted from HuggingFace [transformers](https://github.com/huggingface/transformers) library: `run_mnli.py`. Check out a simple example training [script](https://github.com/NotDachun/huggingface-ark/blob/main/train_roberta_wiki2.sh).
 
 ## Future development
-- [ ] Add the RFA code into the repository as a module to remove the dependency on rfa repository (which requires a user to set up the entire fairseq library)
-- [ ] Do the same for the linfa module and add an interface to HuggingFace
+- [ ] Add the RFA code into the repository as a module to remove the dependency on [rfa repository](https://github.com/haopeng-uw/rfa) (which requires a user to set up the entire fairseq library)
+- [ ] Do the same for the [linfa repository](https://github.com/haopeng-uw/linfa) module and add an interface to HuggingFace
 - [ ] Modularize the interface to HuggingFace (can reference the convert_model_to_rfa notebook)
 - [ ] Add the ability to use drop-in replacements for causal language models
 - [ ] Make the repository a pip installable package (write a setup.py)
