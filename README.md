@@ -1,6 +1,6 @@
 # Repurposing Pre-trained Language Models with Drop-in Attention Mechanisms
 
-Language models based on transformers currently attain state-of-the-art results across a variety of tasks with attention being the mechanism behind recent improvements. Traditional softmax based attention mechanisms, however, scale quadratically in relation to the input sequence length, therefore . At Noah's Ark, we have built several attention variants that improve the inference time and space efficiency, such as:
+Language models based on transformers currently attain state-of-the-art results across a variety of tasks with attention being the mechanism behind recent improvements. Traditional softmax based attention mechanisms, however, scale quadratically in relation to the input sequence length, therefore preventing the effiient processing of long context strings. At Noah's Ark, we have built several attention variants that improve the inference time and space efficiency, such as:
 - [Random Feature Attention](https://arxiv.org/abs/2103.02143)
 
 This demonstration shows an easy way in practice to convert pre-trained models from the HuggingFace community to use a drop-in attention variant, allowing for a simple workflow to  create a more efficient alternative with similar performance to the baseline.
